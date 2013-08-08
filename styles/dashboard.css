@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{ background-color: #e8e8e8;}
+
+.container
+{
+max-width: 920px;
+width: 100%;
+margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.dash-container
+{
+	width: 100%;
+	padding: 40px;
+	
+	height: 1000px;
+	background-color: #fff;
+}
+
+.my-graph
+{
+	width: 49%;
+	background-color: #159dad;
+	height: 14%;
+	float: left;
+	margin-right: 18px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	-webkit-border-radius: 25px 0px 0px 0px;
+border-radius: 25px 0px 0px 0px; 
+}
+
+.my-program
+{
+	width: 49%;
+	background-color: #6341b9;
+	height: 14%;
+	float: left;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	-webkit-border-radius: 0px 25px 0px 0px;
+border-radius: 0px 25px 0px 0px; 
+
+}
+
+@media (max-width: 920px){
+  .my-graph {
+    width: 100% !important;
+    height: 10%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+-webkit-transition: all 400ms ease-in;
+-moz-transition: all 400ms ease-in;
+-ms-transition: all 400ms ease-in;
+-o-transition: all 400ms ease-in;
+transition: all 400ms ease-in;
+  }
+  .my-program {
+    width: 100% !important;
+    height: 10%;
+     margin-top: 6px;
+    margin-bottom: 6px;
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;
+  
+  }
+  .dash-container
+  {padding: 10px !important;}
+
+}

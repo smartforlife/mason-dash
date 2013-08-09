@@ -118,6 +118,18 @@ margin-right: 18px;
 
 }
 
+.my-menu:hover
+{
+
+	background-color: #bf3d1f;
+-webkit-transition: all 800ms ease-in-out;
+		-moz-transition: all 800ms ease-in-out;
+        -ms-transition: all 800ms ease-in-out;
+        -o-transition: all 800ms ease-in-out;
+		transition: all 800ms ease-in-out;
+	
+}
+
 .my-support
 {
 	width: 49%;

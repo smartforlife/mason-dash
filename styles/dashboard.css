@@ -191,9 +191,9 @@ border-radius: 25px 0px 0px 0px;
   
 
   .mobil { width: 100% !important;
-    height: 10%;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    height: 7%;
+    margin-top: 3px;
+    margin-bottom: 3px;
 
  }
 
@@ -215,18 +215,18 @@ transition: all 400ms ease-out; }
 
 
   .dash-container
-  {padding: 10px !important;}
+  {padding: 10px !important; width: 97% !important;}
 
   .dash-container img
 {
 	
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
   .container h2
 {
 
-	margin-top: 55px;
+	margin-top: 25px;
 	margin-left: 20px;
 }
 

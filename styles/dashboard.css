@@ -262,6 +262,61 @@ border-radius: 0px 25px 0px 0px;
 }
 
 
+.maint
+{
+	width: 49%;
+	background-color: #6341b9;
+	height: 14%;
+	float: left;
+	margin-right: 18px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	-webkit-border-radius: 25px 0px 0px 0px;
+border-radius: 25px 0px 0px 0px; 
+}
+
+.maint:hover
+{
+
+ 
+    background-color: #4f3395;
+-webkit-transition: all 800ms ease-in-out;
+		-moz-transition: all 800ms ease-in-out;
+        -ms-transition: all 800ms ease-in-out;
+        -o-transition: all 800ms ease-in-out;
+		transition: all 800ms ease-in-out;
+
+}
+
+
+.exe
+{
+	width: 49%;
+	background-color: #d85234;
+	height: 14%;
+	float: left;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	-webkit-border-radius: 0px 25px 0px 0px;
+border-radius: 0px 25px 0px 0px; 
+
+}
+
+
+.exe:hover
+{
+	
+	background-color: #bf3d1f;
+-webkit-transition: all 800ms ease-in-out;
+		-moz-transition: all 800ms ease-in-out;
+        -ms-transition: all 800ms ease-in-out;
+        -o-transition: all 800ms ease-in-out;
+		transition: all 800ms ease-in-out;
+}
+
+
+
+
 
 /* anything below desktop */
 
@@ -391,6 +446,55 @@ transition: all 400ms ease-out; }
 	}
 	100% {
 		-webkit-transform: scaleX(1);
+	}		
+}
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(1.1);	
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
 	}		
 }
 
